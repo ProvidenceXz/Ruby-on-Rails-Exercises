@@ -1,0 +1,1482 @@
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 00:21:57 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (28.4ms)
+Completed 500 Internal Server Error in 72ms
+
+ActionView::Template::Error (undefined local variable or method `stringify_path' for #<#<Class:0x00000004ac00e0>:0x00000004aee2d8>):
+     7: <!-- CONFUSING CODE, DO NOT MODIFY -->
+     8: <!-- CONFUSING CODE, DO NOT MODIFY -->
+     9: <!-- CONFUSING CODE, DO NOT MODIFY -->
+    10: <%= form_tag stringify_path do %>
+    11:   <%= label_tag :name, "Your Name here!" %>
+    12:   <%= text_area_tag :name %>
+    13:   <%= label_tag :adjective, "An adjective here!" %>
+  app/views/pages/home.html.erb:10:in `_app_views_pages_home_html_erb__1453119804509401539_39812600'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (100.8ms)
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 00:30:00 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 962ms (Views: 936.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:30:01 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:30:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:30:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:30:01 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:30:01 +0000
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 00:31:12 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:31:13 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:31:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:31:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:31:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:31:13 +0000
+
+
+Started PUT "/age" for 192.31.105.177 at 2016-02-10 00:31:17 +0000
+
+ActionController::RoutingError (No route matches [PUT] "/age"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (33.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (129.4ms)
+
+
+Started PUT "/age" for 192.31.105.177 at 2016-02-10 00:49:54 +0000
+
+ActionController::RoutingError (No route matches [PUT] "/age"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (121.1ms)
+
+
+Started PUT "/age" for 192.31.105.177 at 2016-02-10 00:50:34 +0000
+
+ActionController::RoutingError (No route matches [PUT] "/age"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (93.1ms)
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 00:50:38 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 62ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:50:38 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:50:38 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:50:38 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:50:38 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:50:38 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:50:41 +0000
+
+ActionController::RoutingError (No route matches [POST] "/stringify"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (109.8ms)
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 00:53:10 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 149ms (Views: 127.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:53:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:53:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:53:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:53:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:53:11 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:53:16 +0000
+
+ActionController::RoutingError (No route matches [POST] "/stringify"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (31.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (130.1ms)
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:53:51 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xO7mPifkbd/XqwqG+kx6eWtmAHXZW/dLSsx42hUPzNBHSslSDUmD80U1zKl53b7XFEAyK9TohM5Z9Uwrt8yHrg==", "name"=>"123", "adjective"=>"123", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:53:51 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:53:51 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:53:51 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:53:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:53:51 +0000
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 00:53:57 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:53:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:53:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:53:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:53:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:53:57 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:53:59 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AZOAKJULtkCW/i8vMEiNcPrOZnd/aYb4zNQ4Gl+eAFiCN69Ev6ZYbARg6QCz2UnehehUKXLa9X3f7Qzr/V1LJg==", "name"=>"", "adjective"=>"", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:00 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:00 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:54:00 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:00 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:54:12 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AZOAKJULtkCW/i8vMEiNcPrOZnd/aYb4zNQ4Gl+eAFiCN69Ev6ZYbARg6QCz2UnehehUKXLa9X3f7Qzr/V1LJg==", "name"=>"", "adjective"=>"", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:54:12 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:12 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:12 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:12 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:54:21 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AZOAKJULtkCW/i8vMEiNcPrOZnd/aYb4zNQ4Gl+eAFiCN69Ev6ZYbARg6QCz2UnehehUKXLa9X3f7Qzr/V1LJg==", "name"=>"123", "adjective"=>"321", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:54:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:22 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:22 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:54:58 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:54:58 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:55:04 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AZOAKJULtkCW/i8vMEiNcPrOZnd/aYb4zNQ4Gl+eAFiCN69Ev6ZYbARg6QCz2UnehehUKXLa9X3f7Qzr/V1LJg==", "name"=>"123333", "adjective"=>"123", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:55:05 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:55:05 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:55:05 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:55:05 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:55:05 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:55:27 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AZOAKJULtkCW/i8vMEiNcPrOZnd/aYb4zNQ4Gl+eAFiCN69Ev6ZYbARg6QCz2UnehehUKXLa9X3f7Qzr/V1LJg==", "name"=>"123333", "adjective"=>"123", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:55:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:55:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:55:27 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:55:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:55:27 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:55:51 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AZOAKJULtkCW/i8vMEiNcPrOZnd/aYb4zNQ4Gl+eAFiCN69Ev6ZYbARg6QCz2UnehehUKXLa9X3f7Qzr/V1LJg==", "name"=>"123333", "adjective"=>"123", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:55:51 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:55:51 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:55:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:55:51 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:55:51 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:56:07 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AZOAKJULtkCW/i8vMEiNcPrOZnd/aYb4zNQ4Gl+eAFiCN69Ev6ZYbARg6QCz2UnehehUKXLa9X3f7Qzr/V1LJg==", "name"=>"123333", "adjective"=>"123", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:56:08 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:56:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:56:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:56:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:56:08 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:56:22 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AZOAKJULtkCW/i8vMEiNcPrOZnd/aYb4zNQ4Gl+eAFiCN69Ev6ZYbARg6QCz2UnehehUKXLa9X3f7Qzr/V1LJg==", "name"=>"123333", "adjective"=>"123", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:56:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:56:22 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:56:22 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:56:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:56:22 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:56:54 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AZOAKJULtkCW/i8vMEiNcPrOZnd/aYb4zNQ4Gl+eAFiCN69Ev6ZYbARg6QCz2UnehehUKXLa9X3f7Qzr/V1LJg==", "name"=>"123333", "adjective"=>"123", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/home/ubuntu/decal/homework/hw2/app/views/pages/stringify.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting ')'
+...uffer.append=( params[:name] is so params[:adjective] );@out...
+...                               ^):
+  app/views/pages/stringify.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.7ms)
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:57:11 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AZOAKJULtkCW/i8vMEiNcPrOZnd/aYb4zNQ4Gl+eAFiCN69Ev6ZYbARg6QCz2UnehehUKXLa9X3f7Qzr/V1LJg==", "name"=>"123333", "adjective"=>"123", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:57:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:57:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:57:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:57:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:57:11 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:59:22 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AZOAKJULtkCW/i8vMEiNcPrOZnd/aYb4zNQ4Gl+eAFiCN69Ev6ZYbARg6QCz2UnehehUKXLa9X3f7Qzr/V1LJg==", "name"=>"123333", "adjective"=>"123", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:59:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:23 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:23 +0000
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 00:59:24 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:59:25 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:25 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:25 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:59:40 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gcaJwzQrCaVALPDMDzKOdzIwViSu4mkxMZH2pqSLZ2gCYqavHobnidKyNuOMo0rZTRZkeqNRGrQiqMJXBkgsFg==", "name"=>"Amy", "adjective"=>"smart", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:59:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:40 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:40 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:40 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:59:45 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gcaJwzQrCaVALPDMDzKOdzIwViSu4mkxMZH2pqSLZ2gCYqavHobnidKyNuOMo0rZTRZkeqNRGrQiqMJXBkgsFg==", "name"=>"", "adjective"=>"", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:59:46 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:46 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:46 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:46 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:46 +0000
+
+
+Started POST "/stringify" for 192.31.105.177 at 2016-02-10 00:59:51 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gcaJwzQrCaVALPDMDzKOdzIwViSu4mkxMZH2pqSLZ2gCYqavHobnidKyNuOMo0rZTRZkeqNRGrQiqMJXBkgsFg==", "name"=>"", "adjective"=>"123", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 00:59:51 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:51 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:51 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 00:59:51 +0000
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 01:12:23 +0000
+Processing by PagesController#home as HTML
+Completed 500 Internal Server Error in 12ms
+
+NoMethodError (undefined method `bar' for #<Foobar:0x00000004341f08 @text="baz">):
+  app/controllers/pages_controller.rb:4:in `home'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.8ms)
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 01:12:48 +0000
+Processing by PagesController#home as HTML
+Completed 500 Internal Server Error in 3ms
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  app/controllers/concerns/foobar.rb:9:in `bar'
+  app/controllers/pages_controller.rb:4:in `home'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.1ms)
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 01:13:08 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 01:13:09 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 01:13:09 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 01:13:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 01:13:09 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 01:13:09 +0000
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 01:17:55 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 01:17:55 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 01:17:55 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 01:17:55 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 01:17:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 01:17:55 +0000
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 01:18:46 +0000
+Processing by PagesController#home as HTML
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `+' for :cat:Symbol):
+  app/controllers/concerns/foobar.rb:10:in `bar'
+  app/controllers/pages_controller.rb:4:in `home'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (25.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (120.8ms)
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 01:18:55 +0000
+Processing by PagesController#home as HTML
+Completed 500 Internal Server Error in 3ms
+
+TypeError (no implicit conversion of Symbol into String):
+  app/controllers/concerns/foobar.rb:10:in `+'
+  app/controllers/concerns/foobar.rb:10:in `bar'
+  app/controllers/pages_controller.rb:4:in `home'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (119.0ms)
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 01:19:15 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 61ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 01:19:16 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 01:19:16 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 01:19:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 01:19:16 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 01:19:16 +0000
+
+
+Started PUT "/age" for 192.31.105.177 at 2016-02-10 01:21:12 +0000
+
+ActionController::RoutingError (No route matches [PUT] "/age"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (119.1ms)
+
+
+Started GET "/" for 192.31.105.177 at 2016-02-10 01:21:50 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 44ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 01:21:51 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 01:21:51 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 01:21:51 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 01:21:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 01:21:51 +0000
+
+
+Started PUT "/age" for 192.31.105.177 at 2016-02-10 01:21:54 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EvGW/i90VDctAPq2lvj78CHrYHi7p2Rf+6NKFohfcZiRVbmSBdm6G7+ePJkVaT9eXs1SJrYUF9romn7nKpw65g==", "name"=>"wqeqwe", "age"=>"qwewqeee", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.31.105.177 at 2016-02-10 01:21:54 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.31.105.177 at 2016-02-10 01:21:54 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.31.105.177 at 2016-02-10 01:21:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.31.105.177 at 2016-02-10 01:21:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.31.105.177 at 2016-02-10 01:21:54 +0000
+
+
+Started GET "/" for 192.77.239.230 at 2016-02-10 04:13:42 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 145ms (Views: 128.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:13:42 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:13:42 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:13:43 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:13:43 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:13:43 +0000
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:13:46 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1YNIKS3WhfMPfCnNfbvlMdzGD7uAZbxyAdJr7w6Wc/IRHqyPYLTlgrt7ydhDtDvBoGY2tkHH/oSmXGTL4nS6VQ==", "name"=>"asdddd", "age"=>"abc", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/stringify" for 192.77.239.230 at 2016-02-10 04:13:52 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1YNIKS3WhfMPfCnNfbvlMdzGD7uAZbxyAdJr7w6Wc/IRHqyPYLTlgrt7ydhDtDvBoGY2tkHH/oSmXGTL4nS6VQ==", "name"=>"aba", "adjective"=>"casc", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:14:43 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1YNIKS3WhfMPfCnNfbvlMdzGD7uAZbxyAdJr7w6Wc/IRHqyPYLTlgrt7ydhDtDvBoGY2tkHH/oSmXGTL4nS6VQ==", "name"=>"Provi", "age"=>"19", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 45ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:14:48 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1YNIKS3WhfMPfCnNfbvlMdzGD7uAZbxyAdJr7w6Wc/IRHqyPYLTlgrt7ydhDtDvBoGY2tkHH/oSmXGTL4nS6VQ==", "name"=>"Provi", "age"=>"19", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:14:48 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:14:48 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:14:48 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:14:48 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:14:48 +0000
+
+
+Started GET "/" for 192.77.239.230 at 2016-02-10 04:14:57 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:14:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:14:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:14:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:14:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:14:57 +0000
+
+
+Started GET "/" for 192.77.239.230 at 2016-02-10 04:15:16 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 128ms (Views: 112.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:16 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:15:16 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:16 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:16 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:16 +0000
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:15:21 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S8xUkzDkE8pm8fPeYoUMXWEe+ZXCpqTIbKycC59RYpaPUbA1fYZzu9L2E8tcitKtHb7AmAME5j7LIpMvc7OrMQ==", "name"=>"Provi", "age"=>"18", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:15:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:21 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:21 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:21 +0000
+
+
+Started GET "/" for 192.77.239.230 at 2016-02-10 04:15:24 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:15:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:15:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:26 +0000
+
+
+Started GET "/age" for 192.77.239.230 at 2016-02-10 04:15:29 +0000
+Processing by PagesController#person as HTML
+  Rendered pages/person.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:15:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:29 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:29 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:29 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:15:29 +0000
+
+
+Started POST "/stringify" for 192.77.239.230 at 2016-02-10 04:17:04 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lqbCy1u+bkthf7ARr55T8XdjdK6K3oQQqMbUrRpZrnFSOyZtFtwOOtV4UASRkY0BC8NNo0t8xuYPSNuJ9rtn1g==", "name"=>"asdad", "adjective"=>"asdasd", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:17:04 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:04 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:04 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:04 +0000
+
+
+Started POST "/stringify" for 192.77.239.230 at 2016-02-10 04:17:07 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lqbCy1u+bkthf7ARr55T8XdjdK6K3oQQqMbUrRpZrnFSOyZtFtwOOtV4UASRkY0BC8NNo0t8xuYPSNuJ9rtn1g==", "name"=>"", "adjective"=>"", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:17:07 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:07 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:07 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:07 +0000
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:17:11 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lqbCy1u+bkthf7ARr55T8XdjdK6K3oQQqMbUrRpZrnFSOyZtFtwOOtV4UASRkY0BC8NNo0t8xuYPSNuJ9rtn1g==", "name"=>"gghgg", "age"=>"gdfgdfgfdg", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:17:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:11 +0000
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:17:14 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lqbCy1u+bkthf7ARr55T8XdjdK6K3oQQqMbUrRpZrnFSOyZtFtwOOtV4UASRkY0BC8NNo0t8xuYPSNuJ9rtn1g==", "name"=>"gghgg", "age"=>"123", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 182ms (Views: 178.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:17:14 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:14 +0000
+
+
+Started GET "/" for 192.77.239.230 at 2016-02-10 04:17:26 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 48ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:17:26 +0000
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:17:30 +0000
+Processing by PagesController#age as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h5ahgtXDp0Olzt08v3V9I3BO4EeVaHzny1zrT3ZVClJDC0UkmKHHMhHJPSmBeqPTDO7ZSlTKPhFs0uRrmrfD9Q==", "name"=>"qwe", "age"=>"123", "commit"=>"Submit!"}
+  Rendered pages/age.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:17:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:30 +0000
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:17:49 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h5ahgtXDp0Olzt08v3V9I3BO4EeVaHzny1zrT3ZVClJDC0UkmKHHMhHJPSmBeqPTDO7ZSlTKPhFs0uRrmrfD9Q==", "name"=>"qwe", "age"=>"123", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:17:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:49 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:49 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:17:49 +0000
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:21:38 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h5ahgtXDp0Olzt08v3V9I3BO4EeVaHzny1zrT3ZVClJDC0UkmKHHMhHJPSmBeqPTDO7ZSlTKPhFs0uRrmrfD9Q==", "name"=>"qwe", "age"=>"123", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 61ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:21:38 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:21:38 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:21:38 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:21:38 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:21:38 +0000
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:21:55 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h5ahgtXDp0Olzt08v3V9I3BO4EeVaHzny1zrT3ZVClJDC0UkmKHHMhHJPSmBeqPTDO7ZSlTKPhFs0uRrmrfD9Q==", "name"=>"qwe", "age"=>"123", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:21:55 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:21:55 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:21:55 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:21:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:21:55 +0000
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:24:40 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h5ahgtXDp0Olzt08v3V9I3BO4EeVaHzny1zrT3ZVClJDC0UkmKHHMhHJPSmBeqPTDO7ZSlTKPhFs0uRrmrfD9Q==", "name"=>"qwe", "age"=>"123", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (String can't be coerced into Fixnum):
+    2:   <%= @user.introduce %>
+    3: </h1>
+    4: <h1 align="center">
+    5:   <%= @user.birth_year %>
+    6: </h1>
+    7: <h2 align="center">
+    8:   <%= @user.introduce %>
+  app/controllers/concerns/person.rb:13:in `-'
+  app/controllers/concerns/person.rb:13:in `birth_year'
+  app/views/pages/person.html.erb:5:in `_app_views_pages_person_html_erb__12140306233758315_30552700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.2/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.2ms)
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:25:08 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h5ahgtXDp0Olzt08v3V9I3BO4EeVaHzny1zrT3ZVClJDC0UkmKHHMhHJPSmBeqPTDO7ZSlTKPhFs0uRrmrfD9Q==", "name"=>"qwe", "age"=>"123", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 51ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:08 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:25:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:08 +0000
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:25:26 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h5ahgtXDp0Olzt08v3V9I3BO4EeVaHzny1zrT3ZVClJDC0UkmKHHMhHJPSmBeqPTDO7ZSlTKPhFs0uRrmrfD9Q==", "name"=>"qwe", "age"=>"123", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:25:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:26 +0000
+
+
+Started GET "/" for 192.77.239.230 at 2016-02-10 04:25:35 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 42ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:25:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:36 +0000
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:25:43 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zQLyu9MUOZ4/xjDe1Z9GX2MlHDW2rBtIbItrQRLsE6IJnxYdnnZZ74vB0MvrkJivH4UlOHcOWb7LBWRl/g7aBQ==", "name"=>"Provi", "age"=>"18", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 41ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:25:43 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:43 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:43 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:43 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:43 +0000
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:25:48 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zQLyu9MUOZ4/xjDe1Z9GX2MlHDW2rBtIbItrQRLsE6IJnxYdnnZZ74vB0MvrkJivH4UlOHcOWb7LBWRl/g7aBQ==", "name"=>"Provi", "age"=>"19", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:48 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:48 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:25:48 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:48 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:25:48 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:26:00 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:26:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:26:00 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:26:00 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:26:00 +0000
+
+
+Started GET "/me" for 192.77.239.230 at 2016-02-10 04:30:20 +0000
+Processing by PagesController#me as HTML
+  Rendered pages/me.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:30:21 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:30:21 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:30:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:30:21 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:30:21 +0000
+
+
+Started GET "/" for 192.77.239.230 at 2016-02-10 04:31:01 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:31:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:31:01 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:31:01 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:31:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:31:01 +0000
+
+
+Started POST "/stringify" for 192.77.239.230 at 2016-02-10 04:31:04 +0000
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h7eoMfqUBQ/GxBq7jEzDhxZxyQy9Kts/VszNfocbSUhDKkyXt/ZlfnLD+q6yQx13atHwAXyImcnxQsJaa/mA7w==", "name"=>"123", "adjective"=>"as", "commit"=>"Stringify!"}
+  Rendered pages/stringify.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:31:05 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:31:05 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:31:05 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:31:05 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:31:05 +0000
+
+
+Started PUT "/age" for 192.77.239.230 at 2016-02-10 04:31:08 +0000
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h7eoMfqUBQ/GxBq7jEzDhxZxyQy9Kts/VszNfocbSUhDKkyXt/ZlfnLD+q6yQx13atHwAXyImcnxQsJaa/mA7w==", "name"=>"2333", "age"=>"sss", "commit"=>"Submit!"}
+  Rendered pages/person.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.77.239.230 at 2016-02-10 04:31:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.77.239.230 at 2016-02-10 04:31:08 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.77.239.230 at 2016-02-10 04:31:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.77.239.230 at 2016-02-10 04:31:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.77.239.230 at 2016-02-10 04:31:08 +0000
