@@ -1,0 +1,43 @@
+<h1 align="center">TODO List with Cats</h1>
+<% @users.each do |user| %>
+  <div>
+    <div class="username">
+      Username: <%= user.username %>
+    </div>
+    
+    <div class="age">
+      Age: <%= user.age %>
+    </div>
+    
+    <div class="email">
+      Email: <%= user.email %>
+    </div>
+  </div>
+<% end %>
+
+<br>
+
+<% @cats.each do |cat| %>
+  <div>
+      <%= cat.name + " says " + cat.meow %>
+  </div>
+<% end %>
+
+
+  <ul>
+    <h3>Finished Task</h3>
+      <% @todos.each do |todo| %>
+        <% if todo.finished %>
+          <li><%= todo.tasks %></li>
+        <% end %>
+      <% end %>
+      
+    <h3>Unfinished Task</h3>
+      <% @todos.each do |todo| %>
+        <% if !todo.finished %>
+          <li><%= todo.tasks %></li>
+        <% end %>
+      <% end %>
+  </ul>
+
+  
