@@ -1,0 +1,6 @@
+<h1>Register for your dog!</h1>
+<%= form_for @dog do |f| %>
+  <%= f.text_field :name, :placeholder => "Name" %> <br>
+  <%= f.text_field :age, :placeholder => "Age" %> <br><br>
+  <%= f.submit %>
+<% end %>

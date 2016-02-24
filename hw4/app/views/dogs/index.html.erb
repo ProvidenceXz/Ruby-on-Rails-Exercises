@@ -1,0 +1,18 @@
+<h1>Dogs in the database</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  
+  <% @dogs.each do |dog| %>
+  <tr>
+    <td><%= link_to dog.name, dog_path(dog) %></td>
+    <td><%= dog.age %></td>
+  </tr>
+  <% end %>
+  
+</table>
+
+<br><br>
+<%= link_to "Register a new dog!", new_dog_path %>
